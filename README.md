@@ -1,11 +1,11 @@
-I got an opportunity for an internship through reference. 
+ I got an opportunity for an internship through reference. 
 
-I was given two days time to create an CRUD App from Scratch. 
+ I was given two days time to create an CRUD App from Scratch. 
 
 
 """
 
-Start of Task
+# Start of Task
 
 """
 
@@ -15,7 +15,7 @@ An overview of the App that I want you to build to show the knowledge you have i
 This will be a CRUD (Create, inseRt, Update, Delete) app. The app allows the user to search a database of Amazon Sellers, by name, revenue, number of employees or location.
 
 
-1. Create a database with the following fields:
+# 1. Create a database with the following fields:
    1. Company
       1. Company ID
       2. Company name (required)
@@ -24,7 +24,7 @@ This will be a CRUD (Create, inseRt, Update, Delete) app. The app allows the use
       5. URL <Required>
       6. Revenue <Required>
       7. Product categories <Required>
-      8. # employees <If Available>
+      8. Number of employees <If Available>
       9. Address <Required
       10. Decision makers <connected to Person table>
       11. Company LinkedIn URL <If Available>
@@ -37,17 +37,17 @@ This will be a CRUD (Create, inseRt, Update, Delete) app. The app allows the use
       4. LinkedIn URL <required>
       5. Email address <required>
       6. Job function <optional>
-2. Allow for a user to create new Company and add the fields as above
-3. Allow for user to edit company
-4. Allow for user to delete company
-5. Allow for user to search for company and display relevant field
-6. Allow for user to create person attached to a company, delete and edit Person
+# 2. Allow for a user to create new Company and add the fields as above
+# 3. Allow for user to edit company
+# 4. Allow for user to delete company
+# 5. Allow for user to search for company and display relevant field
+# 6. Allow for user to create person attached to a company, delete and edit Person
   
   
   
 """
 
-End of Task
+# End of Task
 
 """
 

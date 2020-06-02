@@ -22,7 +22,7 @@ This will be a CRUD (Create, inseRt, Update, Delete) app. The app allows the use
      6. Revenue (Required)
      7. Product categories (Required)
      8. Number of employees (If Available)
-     9. Address <Required
+     9. Address (Required)
      10. Decision makers (connected to Person table)
      11. Company LinkedIn URL (If Available)
      12. Company Amazon Seller page  (Required)
@@ -31,9 +31,9 @@ This will be a CRUD (Create, inseRt, Update, Delete) app. The app allows the use
      1. Person ID
      2. Full name (required)
      3. Title
-     4. LinkedIn URL <required>
-     5. Email address <required>
-     6. Job function <optional>
+     4. LinkedIn URL (required)
+     5. Email address (required)
+     6. Job function (optional)
 2. Allow for a user to create new Company and add the fields as above
 3. Allow for user to edit company
 4. Allow for user to delete company
@@ -101,4 +101,8 @@ The following is how I have implemented the same :
 # Validation For Fields That Are Required
 
 ![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/11.jpeg)
+
+
+# [ To Try Out The App Click Here ! ](https://drive.google.com/file/d/1fEKrK43f-gY0zIOeOd3tSqDYOYuXh7DE/view?usp=sharing)
+
 

@@ -3,11 +3,9 @@
  I was given two days time to create an CRUD App from Scratch. 
 
 
-"""
 
 # Start of Task
 
-"""
 
 An overview of the App that I want you to build to show the knowledge you have in this area
 
@@ -45,11 +43,10 @@ This will be a CRUD (Create, inseRt, Update, Delete) app. The app allows the use
   
   
   
-"""
 
 # End of Task
 
-"""
+
 
 # Company Structure
 

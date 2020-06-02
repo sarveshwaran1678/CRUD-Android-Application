@@ -18,22 +18,22 @@ This will be a CRUD (Create, inseRt, Update, Delete) app. The app allows the use
      2. Company name (required)
      3. Location
      4. SellerID 
-     5. URL <Required>
-     6. Revenue <Required>
-     7. Product categories <Required>
-     8. Number of employees <If Available>
+     5. URL (Required)
+     6. Revenue (Required)
+     7. Product categories (Required)
+     8. Number of employees (If Available)
      9. Address <Required
-     10. Decision makers <connected to Person table>
-     11. Company LinkedIn URL <If Available>
-     12. Company Amazon Seller page  <Required>
-     13. Logo <If Available>
+     10. Decision makers (connected to Person table)
+     11. Company LinkedIn URL (If Available)
+     12. Company Amazon Seller page  (Required)
+     13. Logo (If Available)
    2. Person (belongs to a company)
-      1. Person ID
-      2. Full name (required)
-      3. Title
-      4. LinkedIn URL <required>
-      5. Email address <required>
-      6. Job function <optional>
+     1. Person ID
+     2. Full name (required)
+     3. Title
+     4. LinkedIn URL <required>
+     5. Email address <required>
+     6. Job function <optional>
 2. Allow for a user to create new Company and add the fields as above
 3. Allow for user to edit company
 4. Allow for user to delete company
@@ -72,6 +72,8 @@ The following is how I have implemented the same :
 ![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/20.jpeg)
 ![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/21.jpeg)
 
+> I deleted the id = 1 before updating it. So , I added the same data and updated it later on with id = 2.
+> That's the reason the id changed to 2.
 
 
 # Person Structure

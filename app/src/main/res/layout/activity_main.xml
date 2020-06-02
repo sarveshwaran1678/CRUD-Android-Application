@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="16dp"
+    android:background="#47535E"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/companyID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:hint="Company ID*"
+                android:textColor="#fff"
+                android:textColorHint="#EAF0F1"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/companyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#EAF0F1"
+                android:textColor="#fff"
+                android:layout_below="@id/companyID"
+                android:hint="Company Name (Required)" />
+
+            <EditText
+                android:id="@+id/company_loc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#EAF0F1"
+                android:textColor="#fff"
+                android:inputType="textEmailAddress"
+                android:layout_below="@id/companyName"
+                android:hint="Location" />
+
+            <EditText
+                android:id="@+id/sellerID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company_loc"
+                android:hint="Seller ID"
+                android:textColor="#fff"
+                android:textColorHint="#EAF0F1"
+
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sellerID"
+                android:hint="URL (Required)"
+                android:textColor="#fff"
+                android:textColorHint="#EAF0F1"
+
+                />
+
+            <EditText
+                android:id="@+id/revenue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/url"
+                android:hint="REVENUE (Required)"
+                android:textColor="#fff"
+                android:textColorHint="#EAF0F1"
+
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/prodcatagory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/revenue"
+                android:hint="Product Category (Required)"
+                android:textColor="#fff"
+                android:textColorHint="#EAF0F1"
+
+                />
+
+            <EditText
+                android:id="@+id/employee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/prodcatagory"
+                android:hint="No. of Employee"
+                android:textColor="#fff"
+                android:textColorHint="#EAF0F1"
+                android:inputType="number"
+
+                />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/employee"
+                android:hint="Address (Required)"
+                android:textColor="#fff"
+                android:textColorHint="#EAF0F1"
+
+                />
+            <EditText
+                android:id="@+id/decision"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/address"
+                android:hint="Decision Maker"
+                android:textColor="#fff"
+                android:textColorHint="#EAF0F1"
+
+                />
+            <EditText
+                android:id="@+id/comp_linkedln_url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/decision"
+                android:hint="Linkedln URL(If any)"
+                android:textColor="#fff"
+                android:textColorHint="#EAF0F1"
+
+                />
+            <EditText
+                android:id="@+id/amz_Sellerpage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/comp_linkedln_url"
+                android:hint="Amazon Seller Page URL (Required)"
+                android:textColor="#fff"
+                android:textColorHint="#EAF0F1"
+                android:layout_marginBottom="10dp"
+
+                />
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text=" Logo (required):"
+                android:layout_below="@id/comp_linkedln_url"
+                android:textColor="#fff"/>
+
+            <Button
+                android:id="@+id/logo_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/text"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:text="Click To Add Image"
+                tools:srcCompat="@android:drawable/ic_menu_gallery" />
+
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5px"
+                android:paddingBottom="5px"
+                android:saveEnabled="false"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <Button
+                android:id="@+id/button_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/logo_id"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="2dp"
+                android:background="#3498DB"
+                android:text="Add Data"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/button_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button_add"
+                android:layout_centerHorizontal="true"
+                android:textColor="#fff"
+                android:background="#10A881"
+                android:layout_marginBottom="2dp"
+                android:text="View" />
+
+            <Button
+                android:id="@+id/button_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button_view"
+                android:layout_centerHorizontal="true"
+                android:textColor="#fff"
+                android:background="#F3B431"
+                android:layout_marginBottom="2dp"
+                android:text="Update" />
+
+            <Button
+                android:id="@+id/button_delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button_update"
+                android:textColor="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_centerHorizontal="true"
+                android:background="#E44236"
+                android:text="Delete" />
+
+            <Button
+                android:id="@+id/button_viewAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:layout_marginBottom="15dp"
+                android:layout_below="@id/button_delete"
+                android:layout_centerHorizontal="true"
+                android:background="#E74292"
+                android:text="View All" />
+
+            <Button
+                android:id="@+id/button_employee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_below="@id/button_viewAll"
+                android:layout_centerHorizontal="true"
+                android:background="#2B2B52"
+
+                android:text="Employee Page" />
+
+            <TextView
+                android:id="@+id/text12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="*Company ID is Auto-Incremented and is only used for updating,viewing and deleting."
+                android:layout_below="@id/comp_linkedln_url"
+                android:textColor="#fff"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

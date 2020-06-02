@@ -61,6 +61,19 @@ The following is how I have implemented the same :
 ![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/5.jpeg)
 ![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/6.jpeg)
 
+# Deleting Details 
+
+![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/16.jpeg)
+![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/17.jpeg)
+
+# Making Changes And Updating
+
+![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/19.jpeg)
+![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/20.jpeg)
+![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/21.jpeg)
+
+
+
 # Person Structure
 
 ## Dynamic Company ID Generation

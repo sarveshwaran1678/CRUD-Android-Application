@@ -2,9 +2,8 @@
 
  I was given two days time to create an CRUD App from Scratch to be selected for the internship. 
 
-
-
 # Start of Task
+
 
 
 An overview of the App that I want you to build to show the knowledge you have in this area
@@ -39,35 +38,27 @@ This will be a CRUD (Create, inseRt, Update, Delete) app. The app allows the use
 3. Allow for user to edit company
 4. Allow for user to delete company
 5. Allow for user to search for company and display relevant field
-6. Allow for user to create person attached to a company, delete and edit Person
-  
+6. Allow for user to create person attached to a company, delete and edit Person  
   
   
 
 # End of Task
 
 
+The following is how I have implemented the same :
+
+
 
 # Company Structure
 
 ![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/1.jpeg)
-
 ![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/2.jpeg)
 
 # Adding Details To Company
 
 ![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/3.jpeg)
-
-# Selecting Images From Gallery 
-
 ![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/4.jpeg)
-
-# Image Selected From Gallery
-
 ![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/5.jpeg)
-
-# Viewing Details Of Data Inserted
-
 ![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/6.jpeg)
 
 # Person Structure
@@ -75,36 +66,24 @@ This will be a CRUD (Create, inseRt, Update, Delete) app. The app allows the use
 ## Dynamic Company ID Generation
 
 ![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/7.jpeg)
-
 ![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/8.jpeg)
 
 # Adding Details To Person
 
 ![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/9.jpeg)
-
-# Viewing Details Of Data Inserted
-
 ![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/10.jpeg)
-
-# Validation For Fields That Are Required
-
-![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/11.jpeg)
 
 # Making Changes And Updating
 
 ![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/12.jpeg)
-
-# Viewing Updated Changes
-
 ![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/13.jpeg)
 
 # Deleting Details 
 
 ![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/14.jpeg)
-
-# Viewing Deleted Changes
-
 ![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/15.jpeg)
 
+# Validation For Fields That Are Required
 
+![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/11.jpeg)
 

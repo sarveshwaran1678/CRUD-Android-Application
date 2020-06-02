@@ -1,6 +1,6 @@
  I got an opportunity for an internship through reference. 
 
- I was given two days time to create an CRUD App from Scratch. 
+ I was given two days time to create an CRUD App from Scratch to be selected for the internship. 
 
 
 
@@ -89,4 +89,22 @@ This will be a CRUD (Create, inseRt, Update, Delete) app. The app allows the use
 # Validation For Fields That Are Required
 
 ![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/11.jpeg)
+
+# Making Changes And Updating
+
+![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/12.jpeg)
+
+# Viewing Updated Changes
+
+![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/13.jpeg)
+
+# Deleting Details 
+
+![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/14.jpeg)
+
+# Viewing Deleted Changes
+
+![alt text](https://sarveshwaran1678.github.io/CRUD-Android-Application/Screenshots/15.jpeg)
+
+
 
